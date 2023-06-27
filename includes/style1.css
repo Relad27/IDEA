@@ -1,0 +1,329 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.p {
+	font-size: 40px;
+
+	text-shadow: 0.1em 0.1em #333;
+}
+
+/*logo*/
+.logo {
+	padding: 1px;
+	margin: 20px;
+	border: 4px;
+	float: left;
+	width: 90px;
+}
+
+/*iconos*/
+
+
+h5 {
+	color: #3273b0ff;
+	font-size: 40px;
+
+}
+
+p {
+	color: #3273b0ff;
+	font-size: 20px;
+}
+
+.white-with-blue-shadow {
+	text-shadow: 2px 2px 1px black, 0 0 1em #3273b0ff, 0 0 0.2em #3273b0ff;
+}
+
+.margin-div {
+	padding: 15px;
+	margin: 30px;
+	border: 4px;
+}
+
+#cuadricula1 {
+	/*transforma la #cuadricula en un contenedor grid:*/
+	display: grid;
+	/*esto genera 3 columnas iguales cuya anchura es 1fr */
+	grid-template-rows: 1fr;
+	/*establece el espaciado entre los ítems del grid*/
+	grid-gap: 1em;
+}
+.Seccion3{
+	position: relative;
+	text-align: center;
+	left: 50px;
+	font-family: sans-serif;
+	color: #3273b0ff;
+	font-weight: 1000;
+	font-size: xx-large;
+	position: relative;
+	top:-40px
+
+}
+#circleSeccion3 {
+	background-color: #EFEFEF;;
+	box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
+	border-radius: 50%;
+	width: 65px;
+	height: 65px;
+	position: relative;
+
+	top: 20px
+	
+}
+#circleSeccion3:hover {
+	background-color: #D8E7F4;
+}
+.iconos{
+	width: 45px;
+	height: 45px;
+	position: relative;
+	
+}
+.TextoSeccion3 {
+
+	font-family: sans-serif;
+	color: #3273b0ff;
+	font-weight: 1000;
+	position: relative;
+	top: -60px;
+	right: 35px;
+} 
+img.izquierda {
+	float: left;
+	margin-right: 30px;
+}
+
+img {
+	margin-bottom: 80px;
+}
+
+#card {
+	background-color: #EFEFEF;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+	position: relative;
+	left: 25%;
+	border: #EFEFEF;
+	transition: 0.3s;
+	height: 300px;
+	width: 250px
+}
+
+#card1 {
+	background-color: #EFEFEF;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+	position: relative;
+	left: 100px;
+	border: #EFEFEF;
+	transition: 0.3s;
+	height: 300px;
+	width: 250px
+}
+
+#card2 {
+	background-color: #EFEFEF;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+	position: relative;
+	left: 45%;
+	border: #EFEFEF;
+	transition: 0.3s;
+	height: 300px;
+	width: 250px
+}
+
+/*Hover con efecto*/
+#card:hover {
+	background-color: #D8E7F4;
+}
+
+#card1:hover {
+	background-color: #D8E7F4;
+}
+
+#card2:hover {
+	background-color: #D8E7F4;
+}
+
+#CardT {
+	font-family: sans-serif;
+	color: #3273b0ff;
+	font-weight: 1000;
+	position: relative;
+	top: -60px;
+
+}
+
+#TextoC {
+	font-family: sans-serif;
+	color: #3273b0ff;
+	position: relative;
+	top: -50px;
+	font-size: small;
+
+}
+
+.row {
+	left: 300px;
+}
+
+#TitleCards {
+	font-family: sans-serif;
+	color: #3273b0ff;
+	position: relative;
+	top: -55px;
+	font-weight: 1000;
+	font-size: xx-large;
+}
+#TitleCards1 {
+	font-family: sans-serif;
+	color: #3273b0ff;
+	position: relative;
+	top: -55px;
+	font-weight: 1000;
+	font-size: xx-large;
+}
+
+.conten {
+	background: white url(../imgs/cotizar_proyecto.jpg);
+	width: 100%;
+	height: 350px;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.conten1 {
+	
+	width: 100%;
+	height: 350px;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.conten::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: #3273b0ff;
+	position: absolute;
+	opacity: 0.50;
+}
+
+.conten h4,
+p,
+button {
+	position: relative;
+}
+
+#Text {
+	font-family: sans-serif;
+	color: white;
+	font-weight: 800;
+	margin-top: 10%;
+}
+
+#Text1 {
+	font-family: sans-serif;
+	color: white;
+	font-size: small;
+	font-weight: 800;
+}
+
+#Boton {
+	background-color: #3273b0ff;
+	color: white;
+	font-family: sans-serif;
+	padding: 13px 30px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	border: #3273b0ff;
+	top: 30px;
+	border-radius: 13px;
+}
+
+#Pie {
+	background-color: rgb(13, 64, 112);
+	width: 100%;
+	height: 350px;
+}
+
+.Tpie {
+	font-family: sans-serif;
+	color: white;
+	position: relative;
+	top: 50px;
+	font-weight: 1000;
+}
+
+.lista {
+	font-family: sans-serif;
+	color: white;
+	text-align: left;
+	position: relative;
+	left: 120px;
+	top: 60px;
+	line-height: 2;
+	font-size: small;
+}
+
+.lista2 {
+	font-family: sans-serif;
+	color: white;
+	text-align: left;
+	position: relative;
+	left: 170px;
+	top: -15px;
+	font-size: small;
+}
+
+#circle {
+	background: white;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	position: relative;
+	top: 20px
+}
+
+.redes {
+	position: relative;
+	width: 25px;
+	height: 25px;
+	align-content: center;
+	top: 8px;
+}
+
+#copyright {
+	background-color: rgb(5, 43, 82);
+	text-align: center;
+	-webkit-text-fill-color: white;
+}
+
+/*formulario*/
+
+.form {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+input, textarea {
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.imgform {
+	position: absolute;
+	width: 520px;
+	height: 402.44px;
+	left: 732px;
+	top: 1100px;
+}

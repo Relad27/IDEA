@@ -1,0 +1,250 @@
+/* Estilos del encabezado */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.menu img {
+  padding: 1px;
+  margin: 20px;
+  border: 4px;
+  float: left;
+  width: 150px;
+}
+
+.menu a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+
+/* Estilos del pie */
+.Tpie {
+  font-family: sans-serif;
+  color: white;
+  position: relative;
+  left: 130px;
+  top: 50px;
+  font-weight: 1000;
+}
+
+.lista {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-align: left;
+  position: relative;
+  left: 90px;
+  top: 60px;
+  line-height: 2;
+  font-size: small;
+ }
+
+.lista2 {
+  font-family: sans-serif;
+  color: white;
+  text-align: left;
+  position: relative;
+  left: 100px;
+  top: 60px;
+  font-size: small;
+}
+
+#espacio{
+  left: 100px;
+  top: 215px;
+  /*margin: 20px;
+  margin-block-start: 1px;*/
+  margin-inline-start: 90px;
+}
+
+#Pie {
+  background-color: rgb(13, 64, 112);
+  width: 100%;
+  height: 300px;
+}
+
+#copyright {
+  background-color: rgb(5, 43, 82);
+  text-align: center;
+  -webkit-text-fill-color: white;
+  margin-inline-end: auto;
+}
+/* Estilos responsivos del pie */
+@media (max-width: 768px) {
+  #Pie{
+    width: 100%;
+    height: 500%;
+  }
+  .listac {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: left;
+    position: relative;
+    left: 90px;
+    top: 30px;
+    line-height: 2;
+    font-size: small;
+   }
+
+   .Tpiec {
+    font-family: sans-serif;
+    color: white;
+    position: relative;
+    left: 130px;
+    top: 30px;
+    font-weight: 1000;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+  .listac {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: left;
+    position: relative;
+    left: 90px;
+    top: 60px;
+    line-height: 2;
+    font-size: small;
+   }
+
+   .Tpiec {
+    font-family: sans-serif;
+    color: white;
+    position: relative;
+    left: 130px;
+    top: 50px;
+    font-weight: 1000;
+  }
+}
+
+.mb-5 {
+  margin-bottom: 2.5rem !important;
+}
+
+@media (min-width: 992px) {
+  .mb-lg-0 {
+    margin-bottom: 0 !important;
+   }
+  }
+
+  .bg-primary {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .btn-circle {
+    border-radius: 50%;
+  }
+
+  /* Estilos de la principal */
+  .white-with-blue-shadow {
+    text-shadow: 2px 2px 1px black, 0 0 1em #3273b0ff, 0 0 0.2em #3273b0ff;
+  }
+  .p {
+    font-size: 40px;
+  
+    text-shadow: 0.1em 0.1em #333;
+  }
+  .header {
+    background: #efefef url(../img/fondo.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    position: relative;
+    height: 698px;
+    position: relative;
+  }
+  
+  .header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  
+  .header .header-content {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    text-align: ‌ center;
+    color: #fff;
+    font-size: 4.378rem;
+  }
+  
+  .header .header-content  {
+    color: white;
+    opacity: 1;
+    margin-bottom: 5px;
+    font-size: calc(12px + (16 - 14) * ((100vw - 300px) / (1200 - 300)));
+  }
+  
+  .header .header-content h6 {
+    margin-bottom: 25px;
+    font-size: calc(35px + (60 - 35) * ((100vw - 300px) / (1200 - 300)));
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  /* seccion 1 */
+  #TitleCards {
+    font-family: sans-serif;
+    color: #3273b0ff;
+    position: relative;
+    top: -55px;
+    font-weight: 1000;
+    font-size: xx-large;
+  }
+  .custom-card-img {
+    width: 175px; /* Cambia este valor al tamaño deseado */
+    object-fit: cover; /* Ajusta la imagen al tamaño especificado sin deformarla */
+  }
+  /* seccion 2 */
+  p {
+    color: #3273b0ff;
+    font-size: 20px;
+  }
+  h5 {
+    color: #3273b0ff;
+    font-size: 40px;
+  
+  }
+  .white-with-blue-shadow {
+    text-shadow: 2px 2px 1px black, 0 0 1em #3273b0ff, 0 0 0.2em #3273b0ff;
+  }
+  .margin-div {
+    padding: 15px;
+    margin: 30px;
+    border: 4px;
+  }
+ 
+  @media (max-width: 768px) {
+    .img3{
+      width: 100%; 
+    } 
+    .p1{
+      text-align: center;
+    }
+  }
+  /* seccion 3 */
+
+  /* seccion 4 */
