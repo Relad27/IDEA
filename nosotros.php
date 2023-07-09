@@ -32,15 +32,15 @@
     <!-- seccion 1 -->
     <section>
     <center>
-    <h5 class="white-with-blue-shadow p1" style="margin-top: 100px;">Enfoque estratégico</h5>
+    <h5 class="white-with-blue-shadow p1 h5c" style="margin-top: 100px;">Enfoque estratégico</h5>
     </center>
     <div class="container" class="p" class="margin-div" style="margin-top: 60px;">
 			<img src="img\20943566_1.png" width="500px" align="right" class="img3">
             <br>
             <br>
             <br>
-			<p class="p1">Somos una empresa integra y dedicada al desarrollo profesional de paginas web.</p>
-			<p class="p1">Adaptamos nuestra tecnología a las ultimas tendencias, manteniendo el estándar de calidad y la experiencia de usuario para nuestros clientes.</p>
+			<p class="p1 pc">Somos una empresa integra y dedicada al desarrollo profesional de paginas web.</p>
+			<p class="p1 pc">Adaptamos nuestra tecnología a las ultimas tendencias, manteniendo el estándar de calidad y la experiencia de usuario para nuestros clientes.</p>
             <center>
             <button class="button" id="Boton1">Proceso de desarrollo</button>
             </center>
@@ -48,11 +48,11 @@
         
         <div class="container" class="p" class="margin-div" style="margin-top: 250px;">
 			<img src="img\empresa_1.png" width="500px" align="left" class="img3">
-            <h5 class="white-with-blue-shadow p1" style="margin-left: 50px">¿QUIÉNES SOMOS?</h5>
+            <h5 class="white-with-blue-shadow p1 h5c" style="margin-left: 50px">¿QUIÉNES SOMOS?</h5>
             <br>
             <br>
-			<p class="p1">Disponibilidad, flexibilidad y optimización; características que siempre estarán presentes en su proyecto </p>
-			<p class="p1">Logre el alcance deseado en cualquier dispositivo. Facilitamos la visualización de su sitio web de forma responsiva.</p>
+			<p class="p1 pc">Disponibilidad, flexibilidad y optimización; características que siempre estarán presentes en su proyecto </p>
+			<p class="p1 pc">Logre el alcance deseado en cualquier dispositivo. Facilitamos la visualización de su sitio web de forma responsiva.</p>
 		</div>
     </section>
     <br>
