@@ -69,6 +69,10 @@ body {
   -webkit-text-fill-color: white;
   margin-inline-end: auto;
 }
+
+.imgc{
+  width: 100%; 
+}
 /* Estilos responsivos del pie */
 @media (max-width: 768px) {
   #Pie{
@@ -159,6 +163,8 @@ body {
     height: 698px;
     position: relative;
   }
+
+  
   
   .header .overlay {
     position: absolute;
@@ -233,6 +239,14 @@ body {
   }
   .white-with-blue-shadow {
     text-shadow: 2px 2px 1px black, 0 0 1em #3273b0ff, 0 0 0.2em #3273b0ff;
+  }
+  .titulo {
+    color: #003365BF;
+    font-family:  'Open Sans';
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+
   }
   .margin-div {
     padding: 15px;
