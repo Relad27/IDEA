@@ -216,7 +216,7 @@ hr {
   font-size: calc(35px + (60 - 35) * ((100vw - 300px) / (1200 - 300)));
 }
 
-h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+/*flta h6*/ h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -264,9 +264,9 @@ h5, .h5 {
   font-size: 1.25rem;
 }
 
-h6, .h6 {
+/*h6, .h6 {
   font-size: 1rem;
-}
+}*/
 
 p {
   margin-top: 0;
@@ -771,23 +771,7 @@ progress {
     max-width: 1320px;
   }
 }
-.row {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: calc(-1 * var(--bs-gutter-y));
-  margin-right: calc(-0.5 * var(--bs-gutter-x));
-  margin-left: calc(-0.5 * var(--bs-gutter-x));
-}
-.row > * {
-  flex-shrink: 0;
-  width: 100%;
-  max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
-  margin-top: var(--bs-gutter-y);
-}
+
 
 .col {
   flex: 1 0 0%;
@@ -1214,10 +1198,10 @@ progress {
     flex: 0 0 auto;
     width: 25%;
   }
-  .col-md-4 {
+ /* .col-md-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
-  }
+  }*/
   .col-md-5 {
     flex: 0 0 auto;
     width: 41.66666667%;
@@ -4256,7 +4240,7 @@ textarea.form-control-lg {
   --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
-
+/*
 .card {
   --bs-card-spacer-y: 1rem;
   --bs-card-spacer-x: 1rem;
@@ -4377,7 +4361,7 @@ textarea.form-control-lg {
   left: 0;
   padding: var(--bs-card-img-overlay-padding);
   border-radius: var(--bs-card-inner-border-radius);
-}
+}*/
 
 .header1 .overlay {
   position: absolute;
@@ -4397,15 +4381,13 @@ textarea.form-control-lg {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
 }
-
+/*
 .card-img,
-.card-img-top,
 .card-img-bottom {
   width: 100%;
 }
 
-.card-img,
-.card-img-top {
+.card-img {
   border-top-left-radius: var(--bs-card-inner-border-radius);
   border-top-right-radius: var(--bs-card-inner-border-radius);
 }
@@ -4436,7 +4418,7 @@ textarea.form-control-lg {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
-  .card-group > .card:not(:last-child) .card-img-top,
+  .card-group > .card:not(:last-child),
   .card-group > .card:not(:last-child) .card-header {
     border-top-right-radius: 0;
   }
@@ -4448,7 +4430,7 @@ textarea.form-control-lg {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
-  .card-group > .card:not(:first-child) .card-img-top,
+  .card-group > .card:not(:first-child),
   .card-group > .card:not(:first-child) .card-header {
     border-top-left-radius: 0;
   }
@@ -4457,7 +4439,7 @@ textarea.form-control-lg {
     border-bottom-left-radius: 0;
   }
 }
-
+*/
 .accordion {
   --bs-accordion-color: #212529;
   --bs-accordion-bg: #fff;
@@ -7163,7 +7145,7 @@ textarea.form-control-lg {
   display: none !important;
 }
 
-.shadow {
+/*.shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
@@ -7177,7 +7159,7 @@ textarea.form-control-lg {
 
 .shadow-none {
   box-shadow: none !important;
-}
+}*/
 
 .position-static {
   position: static !important;
@@ -7263,9 +7245,9 @@ textarea.form-control-lg {
   border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
 }
 
-.border-0 {
+/*.border-0 {
   border: 0 !important;
-}
+}*/
 
 .border-top {
   border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
@@ -7678,10 +7660,6 @@ textarea.form-control-lg {
   margin-left: 3rem !important;
 }
 
-.mx-auto {
-  margin-right: auto !important;
-  margin-left: auto !important;
-}
 
 .my-0 {
   margin-top: 0 !important;
@@ -7786,9 +7764,9 @@ textarea.form-control-lg {
   margin-bottom: 0.5rem !important;
 }
 
-.mb-3 {
+/*.mb-3 {
   margin-bottom: 1rem !important;
-}
+}*/
 
 .mb-4 {
   margin-bottom: 1.5rem !important;
@@ -8408,9 +8386,9 @@ textarea.form-control-lg {
   border-radius: var(--bs-border-radius) !important;
 }
 
-.rounded-0 {
+/*.rounded-0 {
   border-radius: 0 !important;
-}
+}*/
 
 .rounded-1 {
   border-radius: var(--bs-border-radius-sm) !important;

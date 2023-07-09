@@ -18,7 +18,7 @@ body {
   margin-right: 20px;
 }
 
-/* Estilos del pie */
+/* Estilos del pie 
 .Tpie {
   font-family: sans-serif;
   color: white;
@@ -53,7 +53,7 @@ body {
   left: 100px;
   top: 215px;
   /*margin: 20px;
-  margin-block-start: 1px;*/
+  margin-block-start: 1px;*----------------s
   margin-inline-start: 90px;
 }
 
@@ -73,7 +73,7 @@ body {
 .imgc{
   width: 100%; 
 }
-/* Estilos responsivos del pie */
+/* Estilos responsivos del pie -----------
 @media (max-width: 768px) {
   #Pie{
     width: 100%;
@@ -142,7 +142,7 @@ body {
 
   .btn-circle {
     border-radius: 50%;
-  }
+  }*/
 
   /* Estilos de la principal */
   .white-with-blue-shadow {
@@ -211,8 +211,8 @@ body {
   /* seccion 1 */
   .custom-card-img {
     margin-top: 30px;
-    width: 100px;
-    height: 100px;
+    width: 20px;
+    
     object-fit: cover; /* Ajusta la imagen al tamaño especificado sin deformarla */
   }
 
@@ -224,18 +224,18 @@ body {
     font-size: 30px;
   }
   /* seccion 2 */
-  p {
+  .pc {
     color: #003365;
-    ;
     font-size: 20px;
   }
   .p2 {
     color: #ffffff;
     font-size: 30px;
   }
-  h5 {
+  .h5c {
     color: #3273b0ff;
     font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
   }
   .white-with-blue-shadow {
     text-shadow: 2px 2px 1px black, 0 0 1em #3273b0ff, 0 0 0.2em #3273b0ff;
@@ -259,8 +259,8 @@ body {
       width: 100%; 
     } 
     .top{
-      margin-top: 30px;
-      margin-left: 30px;
+      margin-top: 1px;
+      margin-left: 10px;
       /*una solucion digital*/
     } 
     .top2{
@@ -268,7 +268,7 @@ body {
       /*cotiza proyecto*/
     } 
     .top3{
-      margin-top: 50px;
+      margin-top: 100px;
       /*imagen y tu sitio*/
     } 
     .p1{

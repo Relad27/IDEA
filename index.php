@@ -34,19 +34,19 @@
     <!-- seccion 1 -->
     <section>
       <center>
-    <h5 class="white-with-blue-shadow p1">Enfoque estratégico</h5>
-    <p class="p1">Nos regimos por 3 pilares, que son el factor diferenciador y 
+    <h5 class="white-with-blue-shadow p1 h5c">Enfoque estratégico</h5>
+    <p class="p1 pc">Nos regimos por 3 pilares, que son el factor diferenciador y 
 				asegurarán el éxito en todos sus proyectos.</p>
     </center>
     <div class="container" >
     <div class="row">
       <div class="col-md-4">
         <div class="card mb-3 border-0 rounded-0 shadow hoverable" id="card">
-          <img src="img\diagnostico.png" class="card-img-top mx-auto d-block custom-card-img" alt="Imagen 1">
+          <img src="img\diagnostico.png" class="card-img-top mx-auto d-block custom-card-img" alt="Imagen 1" width="70px">
           <div class="card-body">
             <center>
             <h5 class="card-title p1 white-with-blue-shadow h5">Diagnostico</h5>
-            <p class="card-text" style="margin: 20px; position: relative; font-size: small;">Evaluamos profundamente todas las características de su proyecto y presentamos propuestas de alto valor.</p>
+            <p class="card-text pc" style="margin: 20px; position: relative; font-size: small;">Evaluamos profundamente todas las características de su proyecto y presentamos propuestas de alto valor.</p>
                 </center>
           </div>
         </div>
@@ -57,7 +57,7 @@
           <div class="card-body">
             <center>
             <h5 class="card-title p1 white-with-blue-shadow h5">Diseño</h5>
-            <p class="card-text" style="margin: 20px; position: relative; font-size: small;">Con un equipo multidisciplinario y altamente competitivo, el diseño de su proyecto estará listo para destacar.</p>
+            <p class="card-text pc" style="margin: 20px; position: relative; font-size: small;">Con un equipo multidisciplinario y altamente competitivo, el diseño de su proyecto estará listo para destacar.</p>
             <center>
           </div>
         </div>
@@ -68,7 +68,7 @@
           <div class="card-body">
             <center>
             <h5 class="card-title white-with-blue-shadow h5">Implementación</h5>
-            <p class="card-text" style="margin: 20px; position: relative; font-size: small;">Planificamos la puesta en marcha de su sitio web, llevando a cabo todas las acciones para su exitosa disponibilidad.</p>
+            <p class="card-text pc" style="margin: 20px; position: relative; font-size: small;">Planificamos la puesta en marcha de su sitio web, llevando a cabo todas las acciones para su exitosa disponibilidad.</p>
             </center>
           </div>
         </div>
@@ -81,11 +81,11 @@
     <br>
     <!-- seccion 2 -->
     <section>
-    <div class="container" class="p top3" class="margin-div">
+    <div class="container" class="top3" class="margin-div">
 			<img src="img/dispositivos.jpeg" width="700px" align="right" class="img3">
-			<h5 class="white-with-blue-shadow p1">Tu Sitio Web en todos los dispositivos</h5>
-			<p class="p1 top3">Disponibilidad, flexibilidad y optimización; características que siempre estarán presentes en su proyecto </p>
-			<p class="p1">Logre el alcance deseado en cualquier dispositivo. Facilitamos la visualización de su sitio web de forma responsiva.</p>
+			<h5 class="white-with-blue-shadow p1 h5c">Tu Sitio Web en todos los dispositivos</h5>
+			<p class="p1 top3 pc">Disponibilidad, flexibilidad y optimización; características que siempre estarán presentes en su proyecto </p>
+			<p class="p1 pc">Logre el alcance deseado en cualquier dispositivo. Facilitamos la visualización de su sitio web de forma responsiva.</p>
 		</div>
     </section>
     <br>
@@ -99,51 +99,52 @@
       <img src="img/la-importancia-empresas-insercion.jpg" width="650px"  height="640px" align="left" style="position: relative; top: -100px;" class="img3">
     </div>
     <div class="col-md-6" style="height: 600px;">
-    <div class="container p3 top" style="margin-left: 100px;">
+    <div class="container p3 top" style="margin-top: -50px; margin-left: 100px">
         <center>
-        <h4 class="white-with-blue-shadow" style="margin-left: 300px; margin-top: -10px">Una solucion digital</h4>
-				<h4 class="white-with-blue-shadow" style="margin-left: 300px;">adaptada a tus necesidades</h4>
+        <h4 class="white-with-blue-shadow h5c" style="margin-left: 300px; margin-top: -10px">Una solucion digital</h4>
+				<h4 class="white-with-blue-shadow h5c" style="margin-left: 300px;">adaptada a tus necesidades</h4>
         </center>
 				<div class="circle-container">
 					<div class="circle" id="card">
 						<img src="img/mundo.png"  class="img-icon">
 					</div>
-					<p>Presencia Online</p>
+					<p class="pc">Presencia Online</p>
 				</div>
 				<div class="circle-container">
 					<div class="circle" id="card">
 						<img src="img/lupa.png" class="img-icon">
 					</div>
-					<p>Facilidad de Busqueda</p>
+					<p class="pc">Facilidad de Busqueda</p>
 				</div>
 				<div class="circle-container">
 					<div class="circle" id="card">
 						<img src="img/bombilla.png" class="img-icon">
 					</div>
-					<p>Idea hasta el lanzamiento</p>
+					<p class="pc">Idea hasta el lanzamiento</p>
 				</div>
         </div>
     </div>
   </div>
 </div>
 </section>
+<!--parte responciva-->
 <section class="ver">
 <div class="container">
         <center>
-        <h4 class="white-with-blue-shadow" >Una solucion digital</h4>
-				<h4 class="white-with-blue-shadow" >adaptada a tus necesidades</h4>
+        <h4 class="white-with-blue-shadow h5c" >Una solucion digital</h4>
+				<h4 class="white-with-blue-shadow h5c" >adaptada a tus necesidades</h4>
         
   <div class="circle2" style="margin-top: 30px;" id="card">
     <img src="img/mundo.png" style="width: 70px; margin-top: 5px; margin-left: 5px;" alt="Descripción de la imagen">
-    <p id="texto">Presencia Online</p>
+    <p class="pc">Presencia Online</p>
   </div>
   <div class="circle2" style="margin-top: 60px;" id="card">
     <img src="img/lupa.png" style="width: 50px; margin-top: 15px; margin-left: 5px;" alt="Descripción de la imagen">
-    <p style="margin-top: 15px;">Facilidad de Busqueda</p>
+    <p class="pc" style="margin-top: 15px;">Facilidad de Busqueda</p>
   </div>
   <div class="circle2" style="margin-top: 90px;" id="card">
   <img src="img/bombilla.png" style="width: 70px; margin-top: 5px; margin-left: 5px;" alt="Descripción de la imagen">
-    <p>Idea hasta el lanzamiento</p>
+    <p class="pc">Idea hasta el lanzamiento</p>
   </div>
   </center>
 </div>
