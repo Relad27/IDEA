@@ -1,3 +1,6 @@
 {
-    "php.validate.executablePath": "null"
+    "php.validate.executablePath": "null",
+    "[php]": {
+        "editor.defaultFormatter": null
+    }
 }

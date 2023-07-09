@@ -22,7 +22,7 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">NOSOTROS</a>
+          <a class="nav-link" href="nosotros.php">NOSOTROS</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">PROYECTOS</a>
