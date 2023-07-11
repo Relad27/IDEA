@@ -209,15 +209,17 @@ body {
     background-color: rgba(255, 255, 255, 0.7);
   }
   /* seccion 1 */
-  .custom-card-img {
+  #custom-card-img {
     margin-top: 30px;
-    width: 20px;
-    
+    width: 200px;
     object-fit: cover; /* Ajusta la imagen al tamaño especificado sin deformarla */
   }
 
   #card:hover {
     background-color: #D8E7F4;
+  }
+  .p-5 {
+    padding: 3rem !important;
   }
   .h5 {
     color: #3273b0ff;

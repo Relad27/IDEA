@@ -42,7 +42,7 @@
     <div class="row">
       <div class="col-md-4">
         <div class="card mb-3 border-0 rounded-0 shadow hoverable" id="card">
-          <img src="img\diagnostico.png" class="card-img-top mx-auto d-block custom-card-img" alt="Imagen 1" width="70px">
+          <img src="img\diagnostico.png" class="card-img-top mx-auto d-block custom-card-img" id="custom-card-img" alt="Imagen 1" width="70px">
           <div class="card-body">
             <center>
             <h5 class="card-title p1 white-with-blue-shadow h5">Diagnostico</h5>
@@ -52,8 +52,8 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card mb-3 border-0 rounded-0 shadow hoverable" id="card">
-          <img src="img\diseño.png" class="card-img-top mx-auto d-block custom-card-img" alt="Imagen 2">
+        <div class="card mb-3 border-0 rounded-0 shadow hoverable " id="card">
+          <img src="img\diseño.png" class="card-img-top mx-auto d-block" id="custom-card-img" alt="Imagen 2">
           <div class="card-body">
             <center>
             <h5 class="card-title p1 white-with-blue-shadow h5">Diseño</h5>
@@ -64,7 +64,7 @@
       </div>
       <div class="col-md-4">
         <div class="card mb-3 border-0 rounded-0 shadow hoverable" id="card">
-          <img src="img\implementacion.png" class="card-img-top mx-auto d-block custom-card-img" alt="Imagen 3">
+          <img src="img\implementacion.png" class="card-img-top mx-auto d-block" id="custom-card-img" alt="Imagen 3">
           <div class="card-body">
             <center>
             <h5 class="card-title white-with-blue-shadow h5">Implementación</h5>
@@ -159,10 +159,12 @@
 	  </div>
     </section>
     <!-- inicio pie -->
-    <footer>
+    
+</body>
+<footer>
     <?php 
     include_once("includes\pie.php"); ?>
     </footer>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </html>
