@@ -41,7 +41,7 @@
             <br>
             <div class="col-lg-6 order-lg-1">
                 <div class="p-5" style="top: 200%;left: 100%;" >
-             <form>
+            <form method = "post" action = "Services/insertar.php">
                 <div class="form-floating mb-3">
                 <input type="text" class="form-control" id="floatingInput" placeholder="Nombre completo">
                 <label for="floatingInput" id="floatingLabel">Nombre completo</label>
@@ -58,11 +58,11 @@
                 <input type="text" class="form-control" id="floatComment" placeholder="¿Cómo te podemos ayudar?">
                 <label id="floatingLabel">¿Qué necesitas?</label>
                 </div>
-             </form>
-             <div style="text-align: center;">
-                <button name"enviar" type="button" class="button" id="Boton" style="position: absolute;top: 89.6%;left: 39.5%;">Enviar</button>
+				<div style="text-align: center;">
+                <input type="submit" name="boton" class="button" id="Boton" style="position: absolute;top: 89.6%;left: 39.5%;">
                 </div>
-                </div>
+            </form>
+            </div>
             </div>
         </div>
     </div>
