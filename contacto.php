@@ -60,7 +60,7 @@
                 </div>
              </form>
              <div style="text-align: center;">
-                <button type="button" class="button" id="Boton" style="position: absolute;top: 89.6%;left: 39.5%;">Enviar</button>
+                <button name"enviar" type="button" class="button" id="Boton" style="position: absolute;top: 89.6%;left: 39.5%;">Enviar</button>
                 </div>
                 </div>
             </div>
