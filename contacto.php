@@ -43,19 +43,19 @@
                 <div class="p-5" style="top: 200%;left: 100%;" >
             <form method = "post" action = "Services/insertar.php">
                 <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Nombre completo">
+                <input name="name" type="text" class="form-control" id="floatingInput" placeholder="Nombre completo">
                 <label for="floatingInput" id="floatingLabel">Nombre completo</label>
                 </div>
                 <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Correo electrónico">
+                <input name="correo" type="text" class="form-control" id="floatingInput" placeholder="Correo electrónico">
                 <label for="floatingInput" id="floatingLabel">Correo electrónico</label>
                 </div>
                 <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Teléfono">
+                <input name="telefono" type="text" class="form-control" id="floatingInput" placeholder="Teléfono">
                 <label for="floatingInput" id="floatingLabel">Teléfono</label>
                 </div>
                 <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatComment" placeholder="¿Cómo te podemos ayudar?">
+                <input name="comentario" type="text" class="form-control" id="floatComment" placeholder="¿Cómo te podemos ayudar?">
                 <label id="floatingLabel">¿Qué necesitas?</label>
                 </div>
 				<div style="text-align: center;">
