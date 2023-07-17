@@ -41,9 +41,9 @@
             <br>
             <div class="col-lg-6 order-lg-1">
                 <div class="p-5" style="top: 200%;left: 100%;" >
-            <form method = "post" action = "Services/insertar.php">
+            <form method = "post">
                 <div class="form-floating mb-3">
-                <input name="name" type="text" class="form-control" id="floatingInput" placeholder="Nombre completo">
+                <input name="nombre" type="text" class="form-control" id="floatingInput" placeholder="Nombre completo">
                 <label for="floatingInput" id="floatingLabel">Nombre completo</label>
                 </div>
                 <div class="form-floating mb-3">
@@ -69,7 +69,8 @@
     </section>
     <footer>
     <?php 
-    include_once("includes\pie.php"); ?>
+    include_once("Services\insertar.php");
+    include_once("Services\insertar.php");
     </footer>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
