@@ -10,16 +10,20 @@ if(isset($_POST['boton'])){
 		$res = mysqli_query($conex,$insr);
         if ($res) {
             ?>
-            <h3>¡Tu comentario se envió con éxito!</h3>
+            echo "<script> alert('¡Tu comentario se envió con éxito!');
+           </script>";
             <?php
         } else {
             ?>
-            <h3>¡Tu comentario no se pudo enviar!</h3>
+            <h3></h3>
+            echo "<script> alert('¡Tu comentario no se pudo enviar!');
+           </script>";
             <?php
         }
     } else {
         ?>
-        <h3>¡Por favor, completa todos los campos!</h3>
+        echo "<script> alert('¡Por favor, completa todos los campos!');
+           </script>";
         <?php
     }
 }

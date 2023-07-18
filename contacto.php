@@ -70,7 +70,7 @@
     <footer>
     <?php 
     include_once("Services\insertar.php");
-    include_once("Services\insertar.php");
+    include_once("Services\insertar.php"); ?>
     </footer>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
