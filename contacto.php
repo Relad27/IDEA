@@ -41,35 +41,36 @@
             <br>
             <div class="col-lg-6 order-lg-1">
                 <div class="p-5" style="top: 200%;left: 100%;" >
-             <form>
+            <form method = "post">
                 <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Nombre completo">
+                <input name="nombre" type="text" class="form-control" id="floatingInput" placeholder="Nombre completo">
                 <label for="floatingInput" id="floatingLabel">Nombre completo</label>
                 </div>
                 <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Correo electrónico">
+                <input name="correo" type="text" class="form-control" id="floatingInput" placeholder="Correo electrónico">
                 <label for="floatingInput" id="floatingLabel">Correo electrónico</label>
                 </div>
                 <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Teléfono">
+                <input name="telefono" type="text" class="form-control" id="floatingInput" placeholder="Teléfono">
                 <label for="floatingInput" id="floatingLabel">Teléfono</label>
                 </div>
                 <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatComment" placeholder="¿Cómo te podemos ayudar?">
+                <input name="comentario" type="text" class="form-control" id="floatComment" placeholder="¿Cómo te podemos ayudar?">
                 <label id="floatingLabel">¿Qué necesitas?</label>
                 </div>
-             </form>
-             <div style="text-align: center;">
-                <button type="button" class="button" id="Boton" style="position: absolute;top: 89.6%;left: 39.5%;">Enviar</button>
+				<div style="text-align: center;">
+                <input type="submit" name="boton" class="button" id="Boton" style="position: absolute;top: 89.6%;left: 39.5%;">
                 </div>
-                </div>
+            </form>
+            </div>
             </div>
         </div>
     </div>
     </section>
     <footer>
     <?php 
-    include_once("includes\pie.php"); ?>
+    include_once("Services\insertar.php");
+    include_once("Services\insertar.php"); ?>
     </footer>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

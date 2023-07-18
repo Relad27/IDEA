@@ -53,13 +53,11 @@
                     <div class="col-lg-4">
                         <h2 class="text-uppercase mb-4" id="Tpie">Contacto</h2>
                         <p id="Tpie1">
-                            ejemplo@gmail.com
+                            contacto@idea3solutions.com
                             <br />
-                            +52 2221524875
+                            +52 2481142034
                             <br>
-                            CDMX, COL. Benito Juárez
-                            <br>
-                            90700, Ciudad de México
+                            San Martín Texmelucan
                         </p>
                     </div>
                 </div>
