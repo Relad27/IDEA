@@ -163,8 +163,7 @@ body {
     height: 698px;
     position: relative;
   }
-
-  
+ 
   
   .header .overlay {
     position: absolute;
@@ -214,6 +213,174 @@ body {
     width: 200px;
     object-fit: cover; /* Ajusta la imagen al tamaño especificado sin deformarla */
   }
+/* #region  inicio desarrollo herramientas*/
+  #aph {
+    max-width: 128px;
+    max-height: 128px;
+    top: 170px;
+    left: 201px;
+    margin-left: 215px;
+    padding: 20px;
+    gap: 25px;
+  }
+
+  #accs {
+    max-width: 168px;
+    max-height: 168px;
+    top: 170px;
+    left: 201px;
+    margin-left: 215px;
+    padding: 20px;
+    gap: 25px; 
+  }
+
+  #ajs {
+    max-width: 168px;
+    max-height: 168px;
+    top: 170px;
+    left: 201px;
+    margin-left: 215px;
+    padding: 20px;
+    gap: 25px; 
+  }
+
+  .box {
+    border: 5px solid transparent;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 25%;
+  }
+
+  img {
+    height: 15%;
+    width: 31%;
+    margin-left: 2.3%;
+  }
+
+  #hta {
+    height: 15%;
+    width: 31%;
+    margin-top: 5%;
+    margin-left: -5%;
+  }
+
+  #cass {
+    height: 15%;
+    width: 31%;
+    margin-left: 10%;
+  }
+
+  #jas {
+    height: 15%;
+    width: 31%;
+    margin-top: -43.7%;
+    margin-left: 79%;
+  }
+
+  #myas {
+    height: 15%;
+    width: 31%;
+    margin-left: -5%;
+  }
+
+  #rea {
+    height: 15%;
+    width: 31%;
+    margin-left: 9.9%;
+  }
+
+  #vau {
+    height: 15%;
+    width: 31%;
+    margin-left: .9%;
+  }
+
+  #sass {
+    height: 15%;
+    width: 31%;
+    margin-left: 36%;
+  }
+  /* #endregion desarrollo herramientas */
+
+/* #region desarrollo todo trata de ti*/
+#custom-card-img1 {
+  margin-top: -10%;
+  width: 32px;
+  margin-left: -5px;
+  object-fit: cover; /* Ajusta la imagen al tamaño especificado sin deformarla */
+}
+
+#custom-card-img2 {
+  margin-top: -10%;
+  width: 32px;
+  margin-left: -18px;
+  object-fit: cover; /* Ajusta la imagen al tamaño especificado sin deformarla */
+}
+
+#p12{
+  width: 312px;
+  height: 104px;
+  margin-top: 30px;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: rgba(0, 51, 101, 0.75);
+
+  
+}
+
+#custom-card-imgd {
+  margin-top: -8%;
+  width: 190px;
+  object-fit: cover; /* Ajusta la imagen al tamaño especificado sin deformarla */
+}
+
+#custom-card-imgdg {
+  margin-top: -8%;
+  width: 190px;
+  object-fit: cover; /* Ajusta la imagen al tamaño especificado sin deformarla */
+}
+
+/* #endregion desarrollo todo trata de ti*/
+
+/* #region AÑADE A TU PROYECTO*/
+#textos{
+  margin-top: -20%;
+  font-size: small;
+
+}
+
+#pm{
+  width: 312px;
+  height: 104px;
+  margin-top: 15%;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: rgba(0, 51, 101, 0.75);
+
+  
+}
+
+.contencm {
+  background: white url(../img/Rectangle7.png);
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* #endregion AÑADE A TU PROYECTO*/
 
   #card:hover {
     background-color: #D8E7F4;
@@ -224,6 +391,7 @@ body {
   .h5 {
     color: #3273b0ff;
     font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
   }
   /* seccion 2 */
   .pc {
@@ -464,3 +632,51 @@ body {
     margin-bottom: 25px;
     font-size: calc(35px + (60 - 35) * ((100vw - 300px) / (1200 - 300)));
   }
+
+     /* Parte desarrollo */
+     .headerd {
+      background: #efefef url(../img/desarrollo.png);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      text-align: center;
+      color: white;
+      position: relative;
+      height: 698px;
+      position: relative;
+    }
+  
+    .headerd .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 50%;
+      background: rgba(0, 0, 0, 0.4);
+    }
+    
+    .headerd .header-content {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+      text-align: ‌ center;
+      color: #fff;
+      font-size: 4.378rem;
+    }
+    
+    .headerd .header-content  {
+      color: white;
+      opacity: 1;
+      margin-bottom: 5px;
+      font-size: calc(12px + (16 - 14) * ((100vw - 300px) / (1200 - 300)));
+    }
+    
+    .headerd .header-content h6 {
+      margin-bottom: 25px;
+      font-size: calc(35px + (60 - 35) * ((100vw - 300px) / (1200 - 300)));
+    }
+
